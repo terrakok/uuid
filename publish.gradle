@@ -61,7 +61,7 @@ dokka {
 }
 
 def isReleaseBuild() {
-  return VERSION.contains('SNAPSHOT') == false
+  return VERSION.contains('hmpp') == false
 }
 
 def getReleaseRepositoryUrl() {
